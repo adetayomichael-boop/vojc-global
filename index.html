@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voice of Jesus Christ Global — Our Parishes Worldwide</title>
+<meta name="description" content="Voice of Jesus Christ Global, a worldwide family of Celestial Church of Christ parishes and fellowships across the UK, Nigeria, the UAE, and Canada.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --indigo-950:#0E1830; --indigo-900:#182643; --indigo-700:#2C3E63;
+  --gold-500:#C9A227; --gold-400:#DDBB4E;
+  --ivory:#FAF6EC; --ivory-dim:#F1EBDB;
+  --ink:#241F18; --ink-soft:#4A4438; --line:#DED3B3;
+  --radius:2px; --maxw:1120px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{margin:0; background:var(--ivory); color:var(--ink); font-family:'Work Sans',-apple-system,sans-serif; font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4{font-family:'Fraunces',Georgia,serif; font-weight:600; line-height:1.15; margin:0 0 .5em; color:var(--indigo-950); letter-spacing:-0.01em;}
+p{margin:0 0 1em; max-width:62ch;}
+a{color:inherit;}
+img,svg{max-width:100%; display:block;}
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 28px;}
+section{padding:88px 0;}
+section + section{border-top:1px solid var(--line);}
+header.site{position:sticky; top:0; z-index:50; background:rgba(250,246,236,0.92); backdrop-filter:blur(6px); border-bottom:1px solid var(--line);}
+.navrow{display:flex; align-items:center; justify-content:space-between; padding:16px 28px; max-width:var(--maxw); margin:0 auto; gap:20px; flex-wrap:wrap;}
+.brand{display:flex; align-items:center; gap:10px; font-family:'Fraunces',serif; font-weight:600; font-size:17px; color:var(--indigo-950); text-decoration:none; white-space:nowrap;}
+.brand .mark{width:22px; height:22px; flex:none;}
+.brand small{display:block; font-family:'Work Sans',sans-serif; font-weight:500; font-size:11.5px; color:var(--ink-soft); letter-spacing:.01em;}
+nav.links{display:flex; gap:26px; overflow-x:auto; scrollbar-width:none;}
+nav.links::-webkit-scrollbar{display:none;}
+nav.links a{font-size:14.5px; text-decoration:none; color:var(--ink-soft); white-space:nowrap; padding:4px 2px; border-bottom:1px solid transparent; transition:color .15s,border-color .15s;}
+nav.links a:hover{color:var(--indigo-950); border-color:var(--gold-500);}
+.nav-cta{flex:none; font-size:14px; font-weight:600; text-decoration:none; color:var(--ivory); background:var(--indigo-950); padding:9px 16px; border-radius:var(--radius); white-space:nowrap;}
+.nav-social{display:flex; gap:14px; flex:none;}
+.nav-social a{color:var(--ink-soft); display:flex;}
+.nav-social a:hover{color:var(--indigo-950);}
+.nav-social svg{width:17px; height:17px;}
+.eyebrow-line{display:flex; align-items:center; gap:10px; margin-bottom:22px; color:var(--gold-400); font-size:13.5px; letter-spacing:.02em;}
+.eyebrow-line.dark{color:var(--gold-500);}
+.eyebrow-line .rule{width:28px; height:1px; background:var(--gold-500);}
+.btn{display:inline-block; text-decoration:none; font-weight:600; font-size:15px; padding:13px 24px; border-radius:var(--radius); transition:transform .15s,opacity .15s;}
+.btn:hover{transform:translateY(-1px);}
+.btn-gold{background:var(--gold-500); color:var(--indigo-950);}
+.btn-outline{border:1px solid rgba(250,246,236,0.4); color:var(--ivory);}
+.btn-outline-dark{border:1px solid var(--indigo-700); color:var(--indigo-950);}
+footer{background:var(--indigo-950); color:#AFA98F; padding:52px 0 34px;}
+footer .wrap{display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:32px;}
+footer .fbrand{font-family:'Fraunces',serif; color:var(--ivory); font-size:18px; margin-bottom:6px;}
+footer .fnote{font-size:13px; max-width:44ch;}
+footer .fcol{font-size:13.5px; line-height:2;}
+footer .fcol h5{color:var(--ivory); font-size:12.5px; margin:0 0 8px; font-weight:600; font-family:'Work Sans',sans-serif;}
+footer .fcol a{text-decoration:none; color:#AFA98F;}
+footer .legal{font-size:12px; margin-top:34px; border-top:1px solid rgba(255,255,255,0.08); padding-top:20px;}
+.contact-detail{display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line);}
+.contact-detail:first-of-type{border-top:none;}
+.contact-detail .k{font-size:13px; color:var(--ink-soft); width:90px; flex:none;}
+.contact-detail .v{font-size:15px;}
+@media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto;} .btn{transition:none;} }
+
+
+.hero{
+  background:
+    radial-gradient(circle at 80% 20%, rgba(201,162,39,0.18), transparent 45%),
+    var(--indigo-950);
+  color:var(--ivory); padding:110px 0 90px; position:relative; overflow:hidden;
+}
+.hero .stars{position:absolute; inset:0; opacity:.55; pointer-events:none;}
+.hero .wrap{max-width:780px;}
+.hero h1{color:var(--ivory); font-size:clamp(36px,5.5vw,58px); max-width:16ch;}
+.hero .lede{color:#D7D0BC; font-size:19px; max-width:52ch;}
+.hero-actions{display:flex; gap:14px; margin-top:30px; flex-wrap:wrap;}
+.map-band{background:var(--ivory-dim); padding:64px 0; text-align:center;}
+.map-band .countries{
+  display:flex; justify-content:center; gap:36px; flex-wrap:wrap; margin-top:28px;
+  font-family:'Fraunces',serif; font-size:16px; color:var(--indigo-900);
+}
+.parish-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:48px;}
+.parish-card{background:var(--ivory); padding:36px 32px; display:flex; flex-direction:column;}
+.parish-card.wide{grid-column:1 / -1;}
+.parish-card .loc{font-size:13px; color:var(--gold-500); font-weight:600; letter-spacing:.02em; margin-bottom:10px;}
+.parish-card h3{font-size:23px; margin-bottom:4px;}
+.parish-card .country{font-size:13.5px; color:var(--ink-soft); margin-bottom:14px;}
+.parish-card p{font-size:15px; color:var(--ink-soft); margin-bottom:20px;}
+.parish-card a.visit{margin-top:auto; font-size:14px; font-weight:600; text-decoration:none; color:var(--indigo-950); border-bottom:1px solid var(--gold-500); align-self:flex-start;}
+@media (max-width:760px){ .parish-grid{grid-template-columns:1fr;} .parish-card.wide{grid-column:auto;} }
+
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="navrow">
+    <a class="brand" href="index.html">
+      <svg class="mark" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.2 6.8H21l-5.6 4.1 2.2 6.8L12 15.6 6.4 19.7l2.2-6.8L3 8.8h6.8L12 2z" fill="#C9A227"/></svg>
+      <span>Voice of Jesus Christ Global<small>Choose a parish</small></span>
+    </a>
+    <nav class="links">
+      <a href="index.html">Our Parishes</a>
+    </nav>
+    <div class="nav-social">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg></a>
+      <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 9h3V5.5h-3A4 4 0 0 0 10 9.5V12H7v3h3v6h3v-6h3l1-3h-4V9.5A0.5 0.5 0 0 1 14 9z"/></svg></a>
+      <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="6" width="19" height="12" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5v-5z" fill="currentColor" stroke="none"/></svg></a>
+</div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <svg class="stars" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice">
+    <g fill="#DDBB4E">
+      <circle cx="1080" cy="90" r="2"/><circle cx="1010" cy="180" r="1.4"/>
+      <circle cx="1140" cy="230" r="1.8"/><circle cx="960" cy="60" r="1.2"/>
+      <circle cx="1050" cy="320" r="1.6"/><circle cx="900" cy="150" r="1.2"/>
+      <circle cx="1170" cy="120" r="1.4"/><circle cx="1000" cy="400" r="1.8"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow-line"><span class="rule"></span> Celestial Church of Christ · Worldwide</div>
+    <h1>One family in Christ, gathered across five nations</h1>
+    <p class="lede">Voice of Jesus Christ Global connects our parishes and fellowships in the UK, Nigeria, the UAE, and Canada — one tradition of prayer, worship, and holiness, rooted locally in each city we serve.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="#parishes">Find a parish</a>
+      <a class="btn btn-outline" href="#about">About us</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>Who we are</h2>
+    <p>Voice of Jesus Christ Global is a family of Celestial Church of Christ parishes and fellowships, each independently led and rooted in its own community, united by shared tradition, doctrine, and purpose. From London to Lagos, Coventry to Dubai to Canada, every parish holds its own services and ministry — while remaining part of one worldwide body of believers.</p>
+  </div>
+</section>
+
+<section id="parishes">
+  <div class="wrap">
+    <h2>Our parishes</h2>
+    <p>Select a parish below to find its service times, live stream, and contact details.</p>
+    <div class="parish-grid">
+      <div class="parish-card">
+        <div class="loc">COVENTRY</div>
+        <h3>Voice of Jesus Christ Parish</h3>
+        <div class="country">United Kingdom</div>
+        <p>Our founding UK parish, gathering the Coventry community in worship, prayer, and fellowship.</p>
+        <a class="visit" href="coventry.html">Visit parish site &rarr;</a>
+      </div>
+      <div class="parish-card">
+        <div class="loc">LONDON</div>
+        <h3>Voice of Jesus Christ Parish</h3>
+        <div class="country">United Kingdom</div>
+        <p>A vibrant parish serving the Celestial Church of Christ family across London.</p>
+        <a class="visit" href="london.html">Visit parish site &rarr;</a>
+      </div>
+      <div class="parish-card">
+        <div class="loc">LAGOS</div>
+        <h3>Voice of Jesus Christ Parish</h3>
+        <div class="country">Nigeria</div>
+        <p>Our Lagos parish, carrying the Celestial Church of Christ tradition at the heart of the movement's home.</p>
+        <a class="visit" href="lagos.html">Visit parish site &rarr;</a>
+      </div>
+      <div class="parish-card">
+        <div class="loc">DUBAI</div>
+        <h3>Salvation Boat Parish (VOJC Extension)</h3>
+        <div class="country">United Arab Emirates</div>
+        <p>A Voice of Jesus Christ Global extension serving worshippers across Dubai and the wider UAE.</p>
+        <a class="visit" href="dubai.html">Visit parish site &rarr;</a>
+      </div>
+      <div class="parish-card wide">
+        <div class="loc">CANADA</div>
+        <h3>Voice of Jesus Christ Fellowship</h3>
+        <div class="country">Canada</div>
+        <p>Our North American fellowship, bringing the Voice of Jesus Christ family together across Canada.</p>
+        <a class="visit" href="canada.html">Visit parish site &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="map-band">
+  <div class="wrap">
+    <h2 style="margin-bottom:0;">Worshipping across four countries</h2>
+    <div class="countries">Canada &nbsp;&middot;&nbsp; Nigeria &nbsp;&middot;&nbsp; United Arab Emirates &nbsp;&middot;&nbsp; United Kingdom</div>
+  </div>
+</div>
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="fbrand">Voice of Jesus Christ Global</div>
+      <p class="fnote">A worldwide family of Celestial Church of Christ parishes and fellowships, worshipping in spirit and truth across five nations.</p>
+    </div>
+    <div class="fcol">
+      <h5>Our Parishes</h5>
+      <a href="coventry.html">Voice of Jesus Christ Parish — Coventry</a><br><a href="london.html">Voice of Jesus Christ Parish — London</a><br><a href="lagos.html">Voice of Jesus Christ Parish — Lagos</a><br><a href="dubai.html">Salvation Boat Parish — Dubai</a><br><a href="canada.html">Voice of Jesus Christ Fellowship — Canada</a><br>
+    </div>
+    <div class="fcol">
+      <h5>Global</h5>
+      <a href="index.html">About Voice of Jesus Christ Global</a><br>
+      <a href="mailto:info@voiceofjesuschrist.global">info@voiceofjesuschrist.global</a>
+    </div>
+  </div>
+  <div class="wrap legal">&copy; 2026 Voice of Jesus Christ Global. All parishes and fellowships listed here are independently run local ministries under the same tradition.</div>
+</footer>
+
+</body>
+</html>

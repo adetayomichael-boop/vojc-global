@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voice of Jesus Christ Parish London — Voice of Jesus Christ Global</title>
+<meta name="description" content="Voice of Jesus Christ Parish in London, United Kingdom — part of Voice of Jesus Christ Global. Service times, sermons, live worship, giving and prayer requests.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --indigo-950:#0E1830; --indigo-900:#182643; --indigo-700:#2C3E63;
+  --gold-500:#C9A227; --gold-400:#DDBB4E;
+  --ivory:#FAF6EC; --ivory-dim:#F1EBDB;
+  --ink:#241F18; --ink-soft:#4A4438; --line:#DED3B3;
+  --radius:2px; --maxw:1120px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{margin:0; background:var(--ivory); color:var(--ink); font-family:'Work Sans',-apple-system,sans-serif; font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4{font-family:'Fraunces',Georgia,serif; font-weight:600; line-height:1.15; margin:0 0 .5em; color:var(--indigo-950); letter-spacing:-0.01em;}
+p{margin:0 0 1em; max-width:62ch;}
+a{color:inherit;}
+img,svg{max-width:100%; display:block;}
+.wrap{max-width:var(--maxw); margin:0 auto; padding:0 28px;}
+section{padding:88px 0;}
+section + section{border-top:1px solid var(--line);}
+header.site{position:sticky; top:0; z-index:50; background:rgba(250,246,236,0.92); backdrop-filter:blur(6px); border-bottom:1px solid var(--line);}
+.navrow{display:flex; align-items:center; justify-content:space-between; padding:16px 28px; max-width:var(--maxw); margin:0 auto; gap:20px; flex-wrap:wrap;}
+.brand{display:flex; align-items:center; gap:10px; font-family:'Fraunces',serif; font-weight:600; font-size:17px; color:var(--indigo-950); text-decoration:none; white-space:nowrap;}
+.brand .mark{width:22px; height:22px; flex:none;}
+.brand small{display:block; font-family:'Work Sans',sans-serif; font-weight:500; font-size:11.5px; color:var(--ink-soft); letter-spacing:.01em;}
+nav.links{display:flex; gap:26px; overflow-x:auto; scrollbar-width:none;}
+nav.links::-webkit-scrollbar{display:none;}
+nav.links a{font-size:14.5px; text-decoration:none; color:var(--ink-soft); white-space:nowrap; padding:4px 2px; border-bottom:1px solid transparent; transition:color .15s,border-color .15s;}
+nav.links a:hover{color:var(--indigo-950); border-color:var(--gold-500);}
+.nav-cta{flex:none; font-size:14px; font-weight:600; text-decoration:none; color:var(--ivory); background:var(--indigo-950); padding:9px 16px; border-radius:var(--radius); white-space:nowrap;}
+.nav-social{display:flex; gap:14px; flex:none;}
+.nav-social a{color:var(--ink-soft); display:flex;}
+.nav-social a:hover{color:var(--indigo-950);}
+.nav-social svg{width:17px; height:17px;}
+.eyebrow-line{display:flex; align-items:center; gap:10px; margin-bottom:22px; color:var(--gold-400); font-size:13.5px; letter-spacing:.02em;}
+.eyebrow-line.dark{color:var(--gold-500);}
+.eyebrow-line .rule{width:28px; height:1px; background:var(--gold-500);}
+.btn{display:inline-block; text-decoration:none; font-weight:600; font-size:15px; padding:13px 24px; border-radius:var(--radius); transition:transform .15s,opacity .15s;}
+.btn:hover{transform:translateY(-1px);}
+.btn-gold{background:var(--gold-500); color:var(--indigo-950);}
+.btn-outline{border:1px solid rgba(250,246,236,0.4); color:var(--ivory);}
+.btn-outline-dark{border:1px solid var(--indigo-700); color:var(--indigo-950);}
+footer{background:var(--indigo-950); color:#AFA98F; padding:52px 0 34px;}
+footer .wrap{display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:32px;}
+footer .fbrand{font-family:'Fraunces',serif; color:var(--ivory); font-size:18px; margin-bottom:6px;}
+footer .fnote{font-size:13px; max-width:44ch;}
+footer .fcol{font-size:13.5px; line-height:2;}
+footer .fcol h5{color:var(--ivory); font-size:12.5px; margin:0 0 8px; font-weight:600; font-family:'Work Sans',sans-serif;}
+footer .fcol a{text-decoration:none; color:#AFA98F;}
+footer .legal{font-size:12px; margin-top:34px; border-top:1px solid rgba(255,255,255,0.08); padding-top:20px;}
+.contact-detail{display:flex; gap:14px; padding:16px 0; border-top:1px solid var(--line);}
+.contact-detail:first-of-type{border-top:none;}
+.contact-detail .k{font-size:13px; color:var(--ink-soft); width:90px; flex:none;}
+.contact-detail .v{font-size:15px;}
+@media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto;} .btn{transition:none;} }
+
+
+.hero{
+  background:
+    radial-gradient(circle at 82% 18%, rgba(201,162,39,0.16), transparent 42%),
+    linear-gradient(rgba(14,24,48,0.82), rgba(14,24,48,0.9)),
+    url('images/london-hero.jpg') center/cover no-repeat,
+    var(--indigo-950);
+  color:var(--ivory); padding:96px 0 80px; position:relative; overflow:hidden;
+}
+.hero .stars{position:absolute; inset:0; opacity:.55; pointer-events:none;}
+.hero .wrap{display:grid; grid-template-columns:1.15fr 0.85fr; gap:56px; align-items:center;}
+.hero h1{color:var(--ivory); font-size:clamp(34px,5vw,54px); max-width:14ch;}
+.hero .lede{color:#D7D0BC; font-size:18px; max-width:46ch;}
+.hero-actions{display:flex; gap:14px; margin-top:30px; flex-wrap:wrap;}
+.service-card{background:var(--indigo-900); border:1px solid var(--indigo-700); padding:30px 28px; border-radius:var(--radius);}
+.service-card h3{color:var(--gold-400); font-size:15px; font-family:'Work Sans',sans-serif; font-weight:600; margin-bottom:18px;}
+.service-row{display:flex; justify-content:space-between; padding:11px 0; border-top:1px solid rgba(255,255,255,0.08); color:var(--ivory); font-size:15px;}
+.service-row:first-of-type{border-top:none;}
+.service-row span:last-child{color:#B9B196;}
+.about .wrap{display:grid; grid-template-columns:0.9fr 1.1fr; gap:64px; align-items:start;}
+.about h2{font-size:32px; max-width:12ch;}
+.verse{font-family:'Fraunces',serif; font-style:italic; font-size:20px; color:var(--indigo-900); border-left:2px solid var(--gold-500); padding-left:20px; margin:26px 0 0; max-width:40ch;}
+.verse cite{display:block; font-style:normal; font-size:14px; color:var(--ink-soft); margin-top:8px;}
+.gallery-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:36px;}
+.gallery-item{aspect-ratio:4/3; overflow:hidden; border-radius:var(--radius); background:var(--ivory-dim); border:1px solid var(--line);}
+.gallery-item img{width:100%; height:100%; object-fit:cover; display:block;}
+@media (max-width:640px){ .gallery-grid{grid-template-columns:repeat(2,1fr);} }
+.live{background:var(--indigo-950); color:var(--ivory);}
+.live .wrap{display:grid; grid-template-columns:1fr 0.8fr; gap:52px; align-items:center;}
+.live h2{color:var(--ivory);}
+.live-badge{display:inline-flex; align-items:center; gap:8px; font-size:13px; color:var(--gold-400); margin-bottom:18px;}
+.dot{width:8px; height:8px; border-radius:50%; background:#C9482F;}
+.frame-shell{aspect-ratio:16/9; background:var(--indigo-900); border:1px solid var(--indigo-700); border-radius:var(--radius); display:flex; align-items:center; justify-content:center; overflow:hidden;}
+.frame-shell iframe{width:100%; height:100%; border:0;}
+.sermon-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); margin-top:44px;}
+.sermon-card{background:var(--ivory); padding:26px 24px;}
+.sermon-card .tag{font-size:12.5px; color:var(--gold-500); font-weight:600; margin-bottom:10px;}
+.sermon-card h4{font-size:19px; margin-bottom:6px;}
+.sermon-card .meta{font-size:13.5px; color:var(--ink-soft); margin-bottom:14px;}
+.sermon-card a{font-size:14px; font-weight:600; text-decoration:none; color:var(--indigo-950); border-bottom:1px solid var(--gold-500);}
+.giving{background:var(--ivory-dim);}
+.giving .wrap{display:grid; grid-template-columns:1fr 1fr; gap:64px; align-items:start;}
+.give-methods{display:flex; flex-direction:column; gap:0;}
+.give-row{display:flex; justify-content:space-between; padding:16px 0; border-top:1px solid var(--line);}
+.give-row:first-child{border-top:none;}
+.give-row .label{color:var(--ink-soft); font-size:14px;}
+.give-row .value{font-weight:600; font-family:'Fraunces',serif; font-size:17px;}
+form{display:flex; flex-direction:column; gap:16px; max-width:480px; margin-top:12px;}
+.field{display:flex; flex-direction:column; gap:6px;}
+label{font-size:13.5px; color:var(--ink-soft);}
+input,textarea,select{font:inherit; padding:12px 14px; border:1px solid var(--line); background:#fff; border-radius:var(--radius); color:var(--ink);}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--gold-500); outline-offset:1px;}
+textarea{min-height:110px; resize:vertical;}
+button.submit{align-self:flex-start; border:none; cursor:pointer; background:var(--indigo-950); color:var(--ivory); font-weight:600; font-size:15px; padding:13px 26px; border-radius:var(--radius);}
+button.submit:hover{background:var(--indigo-900);}
+.form-note{font-size:13px; color:var(--ink-soft); margin-top:-4px;}
+.event-list{margin-top:40px; border-top:1px solid var(--line);}
+.event-row{display:grid; grid-template-columns:110px 1fr auto; gap:24px; align-items:baseline; padding:22px 0; border-bottom:1px solid var(--line);}
+.event-date{font-family:'Fraunces',serif; color:var(--gold-500); font-size:15px;}
+.event-row h4{margin:0 0 4px; font-size:18px;}
+.event-row p{margin:0; font-size:14.5px; color:var(--ink-soft);}
+.event-time{font-size:13.5px; color:var(--ink-soft); white-space:nowrap;}
+.contact .wrap{display:grid; grid-template-columns:1fr 1fr; gap:64px;}
+.map-shell{aspect-ratio:4/3; border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:var(--ivory-dim);}
+.map-shell iframe{width:100%; height:100%; border:0;}
+.back-band{background:var(--ivory-dim); padding:18px 0; font-size:13.5px;}
+.back-band a{color:var(--indigo-950); text-decoration:none; font-weight:600;}
+
+</style>
+</head>
+<body>
+<div class="back-band"><div class="wrap"><a href="index.html">&larr; Voice of Jesus Christ Global — all parishes</a></div></div><header class="site">
+  <div class="navrow">
+    <a class="brand" href="index.html">
+      <svg class="mark" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.2 6.8H21l-5.6 4.1 2.2 6.8L12 15.6 6.4 19.7l2.2-6.8L3 8.8h6.8L12 2z" fill="#C9A227"/></svg>
+      <span>Voice of Jesus Christ Parish <small>London · Voice of Jesus Christ Global</small></span>
+    </a>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#services">Service Times</a>
+      <a href="#live">Watch Live</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#sermons">Sermons</a>
+      <a href="#events">Events</a>
+      <a href="#prayer">Prayer</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-social">
+      <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"/></svg></a>
+      <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 9h3V5.5h-3A4 4 0 0 0 10 9.5V12H7v3h3v6h3v-6h3l1-3h-4V9.5A0.5 0.5 0 0 1 14 9z"/></svg></a>
+      <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="6" width="19" height="12" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5v-5z" fill="currentColor" stroke="none"/></svg></a>
+</div>
+    <a class="nav-cta" href="#giving">Give</a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <svg class="stars" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice">
+    <g fill="#DDBB4E">
+      <circle cx="1080" cy="90" r="2"/><circle cx="1010" cy="180" r="1.4"/>
+      <circle cx="1140" cy="230" r="1.8"/><circle cx="960" cy="60" r="1.2"/>
+      <circle cx="1050" cy="320" r="1.6"/><circle cx="900" cy="150" r="1.2"/>
+      <circle cx="1170" cy="120" r="1.4"/><circle cx="1000" cy="400" r="1.8"/>
+    </g>
+  </svg>
+  <div class="wrap">
+    <div>
+      <div class="eyebrow-line"><span class="rule"></span> Celestial Church of Christ · London</div>
+      <h1>A house of prayer for Voice of Jesus Christ Parish</h1>
+      <p class="lede">We gather in London to worship in spirit and in truth, to pray for one another, and to walk in the light of Christ together — in person and online.</p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#live">Watch this week's service</a>
+        <a class="btn btn-outline" href="#services">Plan your visit</a>
+      </div>
+    </div>
+    <div class="service-card">
+      <h3>This week at a glance</h3>
+      <div class="service-row"><span>Sunday Worship</span><span>9:00 AM</span></div>
+      <div class="service-row"><span>Midweek Bible Study</span><span>6:30 PM</span></div>
+      <div class="service-row"><span>Prayer Meeting</span><span>6:30 PM</span></div>
+      <div class="service-row"><span>First Sunday — Thanksgiving</span><span>9:00 AM</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div>
+      <h2>Who we are</h2>
+      <p>Voice of Jesus Christ Parish is part of Voice of Jesus Christ Global, a family of Celestial Church of Christ parishes and fellowships. Our London congregation is committed to holiness, prayer, and the move of the Holy Spirit, serving our community as a place of worship, healing, and fellowship — open to all who seek God.</p>
+      <p>Led by our resident minister and a team of dedicated elders and workers, we hold services rooted in scripture, prayer, and praise, and we welcome visitors of every background to worship with us.</p>
+    </div>
+    <div>
+      <div class="verse">
+        "Let everything that hath breath praise the Lord."
+        <cite>Psalm 150:6</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <h2>Moments from our parish</h2>
+    <p>A look at recent worship, fellowship, and special services here in London. Add your own photos to an <code>images</code> folder and update the file names below.</p>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="images/london-gallery-1.jpg" alt="Sunday worship service" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/london-gallery-2.jpg" alt="Choir ministering during service" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/london-gallery-3.jpg" alt="Congregation in prayer" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/london-gallery-4.jpg" alt="Thanksgiving service celebration" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/london-gallery-5.jpg" alt="Fellowship after service" loading="lazy"></div>
+      <div class="gallery-item"><img src="images/london-gallery-6.jpg" alt="Parish elders and workers" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <h2>Service times</h2>
+    <p>Join us in person in London, or online through our live stream below. Times shown are UK local time (GMT/BST).</p>
+    <div class="service-card" style="max-width:520px; margin-top:32px;">
+      <h3>Weekly schedule</h3>
+      <div class="service-row"><span>Sunday Worship Service</span><span>9:00 AM – 12:00 PM</span></div>
+      <div class="service-row"><span>Midweek Bible Study</span><span>6:30 PM – 8:00 PM</span></div>
+      <div class="service-row"><span>Prayer Meeting</span><span>6:30 PM – 8:00 PM</span></div>
+      <div class="service-row"><span>Special Thanksgiving Service</span><span>First Sunday, 9:00 AM</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="live" id="live">
+  <div class="wrap">
+    <div>
+      <div class="live-badge"><span class="dot"></span> Live during service hours</div>
+      <h2>Watch us live</h2>
+      <p style="color:#D7D0BC;">Can't join us in person in London? Worship with us online, live every Sunday. Replays of past services are available on our channel.</p>
+      <a class="btn btn-gold" href="#" style="margin-top:8px;">Open our live channel &nearr;</a>
+    </div>
+    <div class="frame-shell">
+      <!-- Replace YOUR_CHANNEL_ID with this parish's YouTube channel or video ID -->
+      <iframe src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID" title="Live worship service" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section id="sermons">
+  <div class="wrap">
+    <h2>Recent sermons</h2>
+    <p>Catch up on recent messages and teachings from Voice of Jesus Christ Parish, London.</p>
+    <div class="sermon-grid">
+      <div class="sermon-card">
+        <div class="tag">Sunday Worship</div>
+        <h4>Walking in the Light</h4>
+        <div class="meta">Recent · 42 min</div>
+        <a href="#">Watch sermon &rarr;</a>
+      </div>
+      <div class="sermon-card">
+        <div class="tag">Bible Study</div>
+        <h4>The Power of Steadfast Prayer</h4>
+        <div class="meta">Recent · 35 min</div>
+        <a href="#">Watch sermon &rarr;</a>
+      </div>
+      <div class="sermon-card">
+        <div class="tag">Thanksgiving Service</div>
+        <h4>A Heart of Gratitude</h4>
+        <div class="meta">Recent · 48 min</div>
+        <a href="#">Watch sermon &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="giving" id="giving">
+  <div class="wrap">
+    <div>
+      <h2>Giving</h2>
+      <p>Your tithes, offerings, and thanksgiving gifts support the ministry, upkeep, and outreach of Voice of Jesus Christ Parish. Thank you for sowing into this work.</p>
+      <div class="give-methods">
+        <div class="give-row"><span class="label">Bank transfer — Account name</span><span class="value">Add account name</span></div>
+        <div class="give-row"><span class="label">Sort code / routing</span><span class="value">Add details</span></div>
+        <div class="give-row"><span class="label">Account number</span><span class="value">Add details</span></div>
+        <div class="give-row"><span class="label">Reference</span><span class="value">Your name + purpose</span></div>
+      </div>
+    </div>
+    <div>
+      <h2>Give online</h2>
+      <p>Prefer to give by card or contactless? Use our secure online giving link, set up through this parish's payment provider.</p>
+      <a class="btn btn-gold" href="#">Give online securely &nearr;</a>
+      <p class="form-note" style="margin-top:18px;">All gifts are used solely for the ministry and welfare work of Voice of Jesus Christ Parish, London.</p>
+    </div>
+  </div>
+</section>
+
+<section id="events">
+  <div class="wrap">
+    <h2>Upcoming events</h2>
+    <p>Fellowship, outreach, and special services happening at London.</p>
+    <div class="event-list">
+      <div class="event-row">
+        <div class="event-date">TBC</div>
+        <div><h4>Harvest Thanksgiving Service</h4><p>A special service of gratitude, with a shared fellowship meal after worship.</p></div>
+        <div class="event-time">9:00 AM</div>
+      </div>
+      <div class="event-row">
+        <div class="event-date">TBC</div>
+        <div><h4>Prayer & Fasting Week begins</h4><p>Days of corporate prayer and fasting — join in person or from home.</p></div>
+        <div class="event-time">6:30 PM</div>
+      </div>
+      <div class="event-row">
+        <div class="event-date">TBC</div>
+        <div><h4>New Members' Welcome</h4><p>An introduction to the parish for those who have joined us this year.</p></div>
+        <div class="event-time">After service</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="prayer">
+  <div class="wrap">
+    <h2>Prayer requests</h2>
+    <p>Share a need on your heart. Our London prayer team holds every request in confidence and prays over them at our midweek prayer meeting.</p>
+    <!-- To collect submissions, connect this form to a service such as Formspree, or point the action attribute at your own backend -->
+    <form action="#" method="POST">
+      <div class="field">
+        <label for="pname">Your name</label>
+        <input id="pname" name="name" type="text" required>
+      </div>
+      <div class="field">
+        <label for="pcontact">Email or phone (optional)</label>
+        <input id="pcontact" name="contact" type="text">
+      </div>
+      <div class="field">
+        <label for="prequest">Your prayer request</label>
+        <textarea id="prequest" name="request" required></textarea>
+      </div>
+      <button class="submit" type="submit">Send request</button>
+      <p class="form-note">Your request goes directly to the prayer team and is not shared publicly.</p>
+    </form>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div>
+      <h2>Visit us</h2>
+      <div class="contact-detail"><span class="k">Address</span><span class="v">Voice of Jesus Christ Parish, London, United Kingdom</span></div>
+      <div class="contact-detail"><span class="k">Phone</span><span class="v">Contact the parish office</span></div>
+      <div class="contact-detail"><span class="k">Email</span><span class="v">london@voiceofjesuschrist.global</span></div>
+      <div class="contact-detail"><span class="k">Parking</span><span class="v">Add local parking information</span></div>
+      <div class="contact-detail"><span class="k">By transit</span><span class="v">Add nearest bus/train routes and stop names</span></div>
+    </div>
+    <div class="map-shell">
+      <!-- Replace the src below with this parish's exact Google Maps embed link -->
+      <iframe src="https://www.google.com/maps?q=London%2C%20United%20Kingdom&output=embed" title="Map to Voice of Jesus Christ Parish, London" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="fbrand">Voice of Jesus Christ Parish </div>
+      <p class="fnote">Part of Voice of Jesus Christ Global — a worldwide family of Celestial Church of Christ parishes and fellowships.</p>
+    </div>
+    <div class="fcol">
+      <h5>This Parish</h5>
+      <a href="#about">About</a><br>
+      <a href="#services">Service Times</a><br>
+      <a href="#sermons">Sermons</a><br>
+      <a href="#giving">Give</a><br>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="fcol">
+      <h5>Other Parishes</h5>
+      <a href="coventry.html">Voice of Jesus Christ Parish — Coventry</a><br><a href="lagos.html">Voice of Jesus Christ Parish — Lagos</a><br><a href="dubai.html">Salvation Boat Parish — Dubai</a><br><a href="canada.html">Voice of Jesus Christ Fellowship — Canada</a><br>
+      <a href="index.html">See all parishes &rarr;</a>
+    </div>
+  </div>
+  <div class="wrap legal">&copy; 2026 Voice of Jesus Christ Parish , London. Part of Voice of Jesus Christ Global.</div>
+</footer>
+
+</body>
+</html>
